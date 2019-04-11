@@ -1,0 +1,150 @@
+html {
+    margin: 0;
+    padding: 0;
+    background: #1d283e;
+    position: relative;
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 16px;
+    z-index: 2;
+}
+
+body {
+    position: relative;
+    background: #f0f0f0;
+    width: 85vw;
+    height: 85vh;
+    margin: 0 auto;
+    z-index: 3;
+    top: 80px;
+    left: 100px;
+    border-radius: 10px;
+    
+    
+}
+
+aside{
+    position: absolute;
+    top:155px;
+    left: 0px;
+    bottom: 0px;
+    width: 240px;
+    
+    
+    
+    background: #737873;
+    z-index: 4;
+    border-radius: 10px;
+    
+    
+        
+}
+header {
+    width: 99%;
+}
+.menu-icon {
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    margin-right: 40px;
+    margin-left: 5px;
+    
+    
+    
+}
+
+#logo {
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 45px;
+    
+    
+}
+
+.Bar {
+    font-family: Barrio;
+    display: inline;
+    letter-spacing: 10px;
+    margin-left: 25px;
+}
+
+#logo img {
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+#heart {
+    position: absolute;
+    width: 70px;
+    right: 150px;
+    top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#heart i {
+    color: crimson;
+}
+
+#heart h3 {
+    margin-left: 5px;
+}
+
+.profile {
+    position: absolute;
+    top: 15px;
+    right: 21px;
+}
+
+.col-md-1 {
+    background: grey;
+}
+.first-row{
+    height: 90px;
+    
+  
+    
+    
+    
+}
+.btn-my{
+    background-color: #566062;
+    opacity: 0.7;
+    color: white;
+    
+
+    
+}
+.cont{
+    position: relative;
+    
+    height: 98%;
+
+    
+    
+    
+}
+
+ img{
+     box-sizing: content-box;
+     width: 45%;
+     height: auto;
+
+    
+     
+
+
+ }
